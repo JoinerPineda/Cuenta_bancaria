@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta Bancaria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banco">
+        <h1>Sistema Bancario Simplificado</h1>
+        <div class="info-cuenta">
+            <p>Número de Cuenta: <span id="numero_cuenta"></span></p>
+            <p>Propietario: <span id="nombre_propietario"></span></p>
+            <p>Saldo: $<span id="saldo">0.00</span></p>
+        </div>
+        <div class="controles">
+            <button onclick="depositar()">Depositar</button>
+            <button onclick="retirar()">Retirar</button>
+            <button onclick="mostrarSaldo()">Mostrar Saldo</button>
+        </div>
+        <p id="mensaje"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
